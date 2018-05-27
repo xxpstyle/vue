@@ -206,7 +206,7 @@
 	                success:function(e){
 						console.log('success:',e);
 						_this.str=e;
-	     	        }.bind(this)
+	     	        }
 	            })
 
 			},
